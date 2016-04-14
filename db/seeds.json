@@ -1,0 +1,38 @@
+[
+  {
+    "city": "Stockholm",
+    "lodging": "apartment",
+    "sights_visted": [
+      "Vasa Museum",
+      "City Hall",
+      "Gamla Stan"
+    ]
+  },
+  {
+    "city": "Oslo",
+    "lodging": "hostel",
+    "sights_visted":[
+      "Universatet Aula",
+      "Holmenkollen Ski Jump",
+      "Fram Museum"
+    ]
+  },
+  {
+    "city": "Helsinki",
+    "lodging": "hostel",
+    "sights_visted": [
+      "Helsinki Cathedral",
+      "Sebelius Monument",
+      "Uspenski Cathedral"
+    ]
+  },
+  {
+    "city": "Reykjavik",
+    "lodging": "hostel",
+    "sights_visted":[
+      "Hallgrimskirkja",
+      "Landmannalaugar",
+      "Snaefellsjokull"
+    ]
+  }
+]
