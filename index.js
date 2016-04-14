@@ -30,6 +30,14 @@ app.get("/cities", function(req, res) {
     });
   });
 
+app.get("/cities/:name", function(req, res) {
+  City.findOne({name: req.params.name}).then(function(city) {
+    res.render("cities-show", {
+      city: city
+    });
+  });
+});
+
 app.listen(3001, function() {
   console.log("Connected!");
 });

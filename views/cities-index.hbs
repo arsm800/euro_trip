@@ -1,2 +1,5 @@
 <h2>{{cities.length}} Cities</h2>
-<h3>test</h3>
+
+{{#each cities as |city index|}}
+  <h3> <a href="/cities/{{city.name}}"> {{city.name}} </a> </h3>
+{{/each}}
