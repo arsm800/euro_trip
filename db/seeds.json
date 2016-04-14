@@ -1,6 +1,6 @@
 [
   {
-    "city": "Stockholm",
+    "name": "Stockholm",
     "lodging": "apartment",
     "sights_visted": [
       "Vasa Museum",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "city": "Oslo",
+    "name": "Oslo",
     "lodging": "hostel",
     "sights_visted":[
       "Universatet Aula",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "city": "Helsinki",
+    "name": "Helsinki",
     "lodging": "hostel",
     "sights_visted": [
       "Helsinki Cathedral",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "city": "Reykjavik",
+    "name": "Reykjavik",
     "lodging": "hostel",
     "sights_visted":[
       "Hallgrimskirkja",
