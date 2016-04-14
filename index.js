@@ -1,7 +1,9 @@
 var express = require("express");
 // var db = require("./db/connection.js");
 var hbs = require("express-handlebars");
-// var mongoose = require("./db/connection");
+var mongoose = require("./db/connection"); //Makes model from connection.js available; you still neeed to define variable to use on this page, though (see below)//
+
+var City = mongoose.model("City");
 
 var app = express();
 
@@ -21,10 +23,12 @@ app.get("/", function(req, res) {
 });
 
 app.get("/cities", function(req, res) {
-  res.render("cities-index", {
-    cities: db.cities
+    City.find({}).then(function(cities) {
+      res.render("cities-index", {
+        cities: cities
+      });
+    });
   });
-});
 
 app.listen(3001, function() {
   console.log("Connected!");
